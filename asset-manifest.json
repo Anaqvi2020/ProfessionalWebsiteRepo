@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ProfessionalWebsiteRepo/static/css/main.2ee03a6b.css",
+    "main.js": "/ProfessionalWebsiteRepo/static/js/main.8f3f0335.js",
+    "static/js/453.253ccfac.chunk.js": "/ProfessionalWebsiteRepo/static/js/453.253ccfac.chunk.js",
+    "static/media/selfie.jpg": "/ProfessionalWebsiteRepo/static/media/selfie.77fce8805602a546c623.jpg",
+    "static/media/Mech.png": "/ProfessionalWebsiteRepo/static/media/Mech.67e2b5869d58e8adbbe7.png",
+    "static/media/Trees.png": "/ProfessionalWebsiteRepo/static/media/Trees.1db78bd6b55975e506e5.png",
+    "static/media/Melee.png": "/ProfessionalWebsiteRepo/static/media/Melee.fe10f690978b45287243.png",
+    "static/media/React.png": "/ProfessionalWebsiteRepo/static/media/React.81ed438b18e24116794d.png",
+    "static/media/Java.png": "/ProfessionalWebsiteRepo/static/media/Java.86407ffa56ebe1f70b6a.png",
+    "static/media/C++.png": "/ProfessionalWebsiteRepo/static/media/C++.64f637357bce0ccc8384.png",
+    "static/media/Green-Mountains.png": "/ProfessionalWebsiteRepo/static/media/Green-Mountains.84c6f498c3c657aefbc6.png",
+    "static/media/Resume - Ali Naqvi (1).pdf": "/ProfessionalWebsiteRepo/static/media/Resume - Ali Naqvi (1).99c83e3e8961134c4669.pdf",
+    "static/media/CSS.png": "/ProfessionalWebsiteRepo/static/media/CSS.7b2eb4849c1c79b2be14.png",
+    "static/media/Javascript.png": "/ProfessionalWebsiteRepo/static/media/Javascript.266bd9fb2663dcc057b4.png",
+    "index.html": "/ProfessionalWebsiteRepo/index.html",
+    "main.2ee03a6b.css.map": "/ProfessionalWebsiteRepo/static/css/main.2ee03a6b.css.map",
+    "main.8f3f0335.js.map": "/ProfessionalWebsiteRepo/static/js/main.8f3f0335.js.map",
+    "453.253ccfac.chunk.js.map": "/ProfessionalWebsiteRepo/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ee03a6b.css",
+    "static/js/main.8f3f0335.js"
+  ]
+}
