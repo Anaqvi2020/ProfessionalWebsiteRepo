@@ -5,15 +5,15 @@ import Trees from './images/Trees.png';
 import Selfie from './images/Profile Pic.jpeg';
 import Timeline from './Timeline';
 import SkillCard from './SkillCard';
-import C from './images/C++.png';
-import Java from './images/Java.png';
-import HTML from './images/HTML.png';
-import CSS from './images/CSS.png';
-import SQL from './images/SQL.png';
-import Python from './images/Python.png';
-import RReact from './React.png';
-import Javascript from './images/Javascript.png';
-import Node from './images/Node.png';
+import C_Image from './images/C++.png';
+import Java_Image from './images/Java.png';
+import HTML_Image from './images/HTML.png';
+import CSS_Image from './images/CSS.png';
+import SQL_Image from './images/SQL.png';
+import Python_Image from './images/Python.png';
+import RReact_Image from './React.png';
+import Javascript_Image from './images/Javascript.png';
+import Node_Image from './images/Node.png';
 import UB04 from './images/UB04.png';
 import ProjectCard from './ProjectCard';
 import Melee from './Melee.png';
@@ -68,15 +68,15 @@ function App() {
           <div id="skills" className="skills">
             <h2 className="mySkills">My Skills:</h2>
             <div className="skills_grid">
-              <SkillCard imgSrc={C} name='C++'/>
-              <SkillCard imgSrc={Java} name='Java'/>
-              <SkillCard imgSrc={Python} name='Python'/>
-              <SkillCard imgSrc={HTML} name='HTML'/>
-              <SkillCard imgSrc={CSS} name='CSS'/>
-              <SkillCard imgSrc={Javascript} name='Javascript'/>
-              <SkillCard imgSrc={RReact} name='React'/>
-              <SkillCard imgSrc={SQL} name=''/>
-              <SkillCard imgSrc={Node} name='Node'/>
+              <SkillCard imgSrc={C_Image} name='C++'/>
+              <SkillCard imgSrc={Java_Image} name='Java'/>
+              <SkillCard imgSrc={Python_Image} name='Python'/>
+              <SkillCard imgSrc={HTML_Image} name='HTML'/>
+              <SkillCard imgSrc={CSS_Image} name='CSS'/>
+              <SkillCard imgSrc={Javascript_Image} name='Javascript'/>
+              <SkillCard imgSrc={RReact_Image} name='React'/>
+              <SkillCard imgSrc={SQL_Image} name=''/>
+              <SkillCard imgSrc={Node_Image} name='Node'/>
             </div>
           </div>
           <div className="resume">
