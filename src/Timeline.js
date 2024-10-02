@@ -2,11 +2,11 @@ import React from 'react';
 import './Timeline.css';
 
 const events = [
+  { year: '2019', title: 'Working With My Family', description: 'My parents owned a pizzeria for many years and I became more involved in helping run it. It\'s where I primarily worked for the next few years.' },
   { year: '2020', title: 'Started University', description: 'I moved to Riverside after high school and got started on my CS degree at UCR.' },
-  { year: '2021', title: 'First Job', description: 'I got my first job ever working for the UPS Regional Airhub. May not be related to my future career but I learned to appreciate the expectations of a work-environment.' },
   { year: '2022', title: 'Started Fencing', description: 'I took something that I fantasized about doing for years and decided to just do it. I joined the fencing club at my school and haven\'t looked back since. I\'ve had a great time.' },
   { year: '2023', title: 'Europe at Last', description: 'Spent a few days of my summer break in Munich and Berlin. It was my first time being in Europe and I hope there\'s more to come' },
-  { year: '2022', title: 'Graduation', description: 'I expect to get my degree in CS by the end of this academic year.' },
+  { year: '2024', title: 'Graduation', description: 'I graduated with my degree in September to start my career in earnest.' },
 ];
 
 function Timeline() {

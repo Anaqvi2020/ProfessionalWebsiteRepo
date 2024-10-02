@@ -1,21 +1,25 @@
 import React from 'react';
 import './App.css';
-import Mountain from './Green-Mountains.png';
-import Trees from './Trees.png';
-import Selfie from './images/selfie.jpg';
+import Mountain from './images/Green-Mountains.png';
+import Trees from './images/Trees.png';
+import Selfie from './images/Profile Pic.jpeg';
 import Timeline from './Timeline';
 import SkillCard from './SkillCard';
-import C from './C++.png';
-import Java from './Java.png';
-import HTML from './HTML.png';
-import CSS from './CSS.png';
+import C from './images/C++.png';
+import Java from './images/Java.png';
+import HTML from './images/HTML.png';
+import CSS from './images/CSS.png';
+import SQL from './images/SQL.png';
+import Python from './images/Python.png';
 import RReact from './React.png';
-import Javascript from './Javascript.png';
+import Javascript from './images/Javascript.png';
+import Node from './images/Node.png';
+import UB04 from './images/UB04.png';
 import ProjectCard from './ProjectCard';
 import Melee from './Melee.png';
-import Mech from './Mech.png';
-import Doc from './Document.png'
-import Resume from './Resume - Ali Naqvi (1).pdf'
+import Tetris from './images/CompleteTetrisBoard.jpg';
+import Doc from './images/Document.png'
+import Resume from './Resume-Ali Naqvi.pdf'
 
 function App() {
   return (
@@ -55,7 +59,7 @@ function App() {
         <div className="else">
           <div className="Hero">
             <img src={Selfie} className="selfie" width="200px" alt="Selfie" />
-            <h2>I'm currently a fourth year Computer Science student at UC, Riverside.</h2>
+            <h2>Recent computer science graduate of UC, Riverside.</h2>
           </div>
           <div id="aboutMe" className="aboutMe">
             <h2>About Me</h2>
@@ -66,10 +70,13 @@ function App() {
             <div className="skills_grid">
               <SkillCard imgSrc={C} name='C++'/>
               <SkillCard imgSrc={Java} name='Java'/>
+              <SkillCard imgSrc={Python} name='Python'/>
               <SkillCard imgSrc={HTML} name='HTML'/>
               <SkillCard imgSrc={CSS} name='CSS'/>
-              <SkillCard imgSrc={RReact} name='React'/>
               <SkillCard imgSrc={Javascript} name='Javascript'/>
+              <SkillCard imgSrc={RReact} name='React'/>
+              <SkillCard imgSrc={SQL} name=''/>
+              <SkillCard imgSrc={Node} name='Node'/>
             </div>
           </div>
           <div className="resume">
@@ -84,9 +91,11 @@ function App() {
           </div>
 
           <div id="projects" className="projects">
-            <h2>Projects</h2>
-            <ProjectCard title="Melee Malders" description="Some classmates and I got together to make a project of our choosing and we felt something unqiue would be an epic fighting-game." imgSrc={Melee} url="https://gx.games/games/qdy4vp/melee-malders/tracks/b90b83d7-013c-45cc-94bd-cc03db2ae15b/" />
-            <ProjectCard title="Car Systems" description="I constructed the basic functionality of a car such as steering and turns signals on a breadboard" imgSrc={Mech} url="https://www.youtube.com/watch?v=0EIBG5hYjns" />
+            <h2>Projects (with image links)</h2>
+            <ProjectCard title="Melee Malders" description=" An epic fighting-game I made with some teammates for a school project where we had free reign to make what we wanted." imgSrc={Melee} url="https://gx.games/games/qdy4vp/melee-malders/tracks/b90b83d7-013c-45cc-94bd-cc03db2ae15b/" />
+            <ProjectCard title="Physical Tetris Circuit" description="I constructed a replica of Tetris on an 8x8 LED using a breadboad and microprocessor." imgSrc={Tetris} url="https://github.com/Anaqvi2020/TetrisGame" />
+            <ProjectCard title="Optical Character Reader" description="With a small team, I made an application that takes in an UB-04 form, the standard medical receipt issued by hospitals, and uses optical character recognition to extract data that can be entered into a database." imgSrc={UB04} url="https://github.com/Anaqvi2020/TetrisGame" />
+
           </div>
 
           <h2 id="contactMe" className="contactMe">Contact Me</h2>
